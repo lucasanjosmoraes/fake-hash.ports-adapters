@@ -60,7 +60,7 @@ func (a ServerAdapter) Listen(ctx context.Context, router *projecthttp.Router) e
 	}
 	a.server.Handler = r
 
-	a.Logger.Infof(ctx, "listening on port %d", a.port)
+	a.Logger.Infof(ctx, "listening on port %d 🚀🚀🚀", a.port)
 	return a.server.ListenAndServe()
 }
 
