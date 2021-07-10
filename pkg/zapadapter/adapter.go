@@ -27,7 +27,7 @@ type Adapter struct {
 func New(c Config) (log.Logger, error) {
 	rawConfig := `{
 	"level": "%s",
-	"enconding": "json",
+	"encoding": "json",
 	"outputPaths": ["stdout"],
 	"errorOutputPaths": ["stderr"],
 	"initialFields": {"version": "%s"},
