@@ -103,7 +103,6 @@ func (a Adapter) withCorrelationID(ctx context.Context) *zap.SugaredLogger {
 		ctx = context.Background()
 	}
 
-	correlationIDValue := ctx.Value(toolkit.CorrelationKey)
-	correlationID := fmt.Sprintf("%v", correlationIDValue)
-	return a.suggaredLogger.With(zap.String("correlationID", correlationID))
+	correlationID := toolkit.ExtractCorrelationID(ctx)
+	return a.suggaredLogger.With(zap.String(toolkit.CorrelationKey, correlationID))
 }
