@@ -1,4 +1,4 @@
-module fake-hash.ports-adapters
+module github.com/lucasanjosmoraes/fake-hash.ports-adapters
 
 go 1.16
 

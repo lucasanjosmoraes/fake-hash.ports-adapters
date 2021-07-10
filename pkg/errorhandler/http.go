@@ -3,8 +3,8 @@ package errorhandler
 import (
 	"context"
 
-	"fake-hash.ports-adapters/pkg/http"
-	"fake-hash.ports-adapters/pkg/log"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/http"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/log"
 )
 
 const DefaultErrorMessage = "unkwnow internal error"

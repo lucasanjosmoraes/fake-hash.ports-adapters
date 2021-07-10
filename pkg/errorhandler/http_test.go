@@ -6,8 +6,8 @@ import (
 	nethttp "net/http"
 	"testing"
 
-	"fake-hash.ports-adapters/pkg/http"
-	"fake-hash.ports-adapters/pkg/log"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/http"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/log"
 )
 
 func TestHandle(t *testing.T) {

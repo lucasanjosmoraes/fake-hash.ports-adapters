@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"fake-hash.ports-adapters/pkg/log"
-	"fake-hash.ports-adapters/pkg/toolkit"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/log"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/toolkit"
 	"go.uber.org/zap"
 )
 

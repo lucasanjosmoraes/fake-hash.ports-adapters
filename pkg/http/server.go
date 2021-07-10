@@ -3,7 +3,7 @@ package http
 import (
 	"context"
 
-	"fake-hash.ports-adapters/pkg/stoppage"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/stoppage"
 )
 
 // Server define o que é necessário para criar um servidor HTTP.

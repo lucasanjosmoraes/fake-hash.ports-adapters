@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"fake-hash.ports-adapters/pkg/config"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/config"
 )
 
 // Adapter implementa config.Sourcer, usando o pacote "os" como fonte de dados.

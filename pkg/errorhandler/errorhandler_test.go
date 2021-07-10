@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"fake-hash.ports-adapters/pkg/log"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/log"
 )
 
 type LoggableError struct {

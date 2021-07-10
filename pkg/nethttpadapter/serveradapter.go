@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	projecthttp "fake-hash.ports-adapters/pkg/http"
-	"fake-hash.ports-adapters/pkg/log"
-	"fake-hash.ports-adapters/pkg/toolkit"
 	"github.com/gorilla/mux"
+	projecthttp "github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/http"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/log"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/toolkit"
 )
 
 // ServerConfig guarda todas as variáveis de configuração do servidor.

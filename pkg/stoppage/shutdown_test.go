@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"fake-hash.ports-adapters/pkg/log"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/log"
 )
 
 func TestGraceful(t *testing.T) {

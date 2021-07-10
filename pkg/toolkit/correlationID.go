@@ -3,7 +3,7 @@ package toolkit
 import (
 	"context"
 
-	"fake-hash.ports-adapters/pkg/http"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/http"
 )
 
 const (

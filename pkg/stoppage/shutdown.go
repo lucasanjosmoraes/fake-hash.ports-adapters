@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"fake-hash.ports-adapters/pkg/log"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/log"
 )
 
 // Shutdown ajuda a gerenciar múltiplos Stopper ao encerrarmos uma aplicação.

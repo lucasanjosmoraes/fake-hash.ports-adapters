@@ -3,7 +3,7 @@ package errorhandler
 import (
 	"context"
 
-	"fake-hash.ports-adapters/pkg/log"
+	"github.com/lucasanjosmoraes/fake-hash.ports-adapters/pkg/log"
 )
 
 // Logger define o que um erro precisa implementar para logar suas informações.
